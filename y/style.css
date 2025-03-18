@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  background-color: #101218;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+  top: 0;
+}
+
+.navBtn {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+  gap: 20px;
+  font-size: 14px;
+}
+
+
+.body {
+  display: flex;
+  position: relative;
+  top: 20vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  color: white;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.divBtn {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 15px;
+  top: 5vh;
+}
+
+.btn {
+  background-color: #3f4454;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.searchBarDiv{
+  position: relative;
+  background-color: #3f4454;
+  top: 3vh;
+  margin: 10px;
+  color: white;
+  border-radius: 24px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid transparent;
+}
+
+.searchBar {
+  background-color: #3f4454;
+  color: white;
+  padding: 14px 110px;
+  border-radius: 24px;
+  box-shadow: none;
+  border: 1px solid transparent;
+  text-align: left;
+}
+
+
+.footer {
+  background-color: #1f2128;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
+.gps {
+  display: flex;
+  padding: 17px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 15px;
+}
+
+.footerBtn {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.navFooterBtn {
+  padding: 18px 35px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  font-size: 14px;
+}
+
+#menuIcon {
+  position: relative;
+  bottom: 3px;
+  margin: 0 10px;
+}
