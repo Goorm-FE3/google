@@ -1,3 +1,78 @@
-body {
-  
+.top {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.left-menu, .right-menu {
+  display: flex;
+  gap: 15px; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh; 
+}
+
+h1 {
+  text-align: center;
+  font-size: 90px;
+  margin-bottom: 30px; 
+}
+
+.google-logo {
+  width: 272px;
+  height: auto;
+  display: block;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 20px;
+  width: 500px;
+  height: 20px;
+  padding: 10px;
+}
+
+.search-input {
+  border: none;
+  width: 100%;
+  height: 5px;
+  font-size: 16px;
+  padding: 10px;
+  outline: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #e3dfdf49;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+.footer-bar {
+  padding: 10px 20px;
+  border-bottom: 1px solid #d8d0d0bd;
+}
+
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.footer-left, .footer-right {
+  display: flex;
+  gap: 15px;
 }
