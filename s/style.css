@@ -50,3 +50,29 @@ h1 {
   padding: 10px;
   outline: none;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #e3dfdf49;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+.footer-bar {
+  padding: 10px 20px;
+  border-bottom: 1px solid #d8d0d0bd;
+}
+
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.footer-left, .footer-right {
+  display: flex;
+  gap: 15px;
+}
