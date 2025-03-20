@@ -105,12 +105,16 @@ header {
   width: 25px;
 }
 
-.search-input {
+.search-bar form {
+  flex-grow: 1;
   height: 30px;
   margin: 0px 20px;
-  font-size: 16px;
+}
+
+.search-input {
   border: none;
-  flex-grow: 1;
+  height: 100%;
+  width: 100%;
 }
 
 .search-input:focus {
@@ -130,25 +134,17 @@ header {
 }
 
 .search-btns button {
-  height: 40px;
-  font-size: 14px;
-  border: none;
-  border-radius: 5px;
-  margin-left: 10px;
   color: #3c4043;
   background-color: #f8f9fa;
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 
 .search-btns button:hover {
   border: 1px solid lightgray;
-}
-
-.google-search-btn {
-  width: 105px;
-}
-
-.lucky-search-btn {
-  width: 140px;
 }
 
 /* Footer */
