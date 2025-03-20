@@ -56,7 +56,13 @@
             src="./asset/search-icon.png"
             alt="Search Image"
           />
-          <input class="search-input" type="text" />
+          <form
+            class="search-form"
+            action="https://www.google.com/search"
+            method="GET"
+          >
+            <input class="search-input" type="text" name="q" />
+          </form>
           <div class="icon-box">
             <img
               class="search-bar-icon"
@@ -76,8 +82,8 @@
           </div>
         </div>
         <div class="search-btns">
-          <button class="google-search-btn">Google 검색</button>
-          <button class="lucky-search-btn">I'm Feeling Lucky</button>
+          <button id="google-search-btn" type="submit">Google 검색</button>
+          <button id="lucky-search-btn">I'm Feeling Lucky</button>
         </div>
       </div>
     </section>
@@ -109,5 +115,6 @@
         </div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
