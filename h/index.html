@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../h/index.css" rel="stylesheet" type="text/css" />
+    <link href="../reset.css" rel="stylesheet" type="text/css" />
+    <title>Google</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="left-btns">
+          <button id="google-info-btn">Google 정보</button>
+          <button id="store-btn">스토어</button>
+        </div>
+        <div class="right-btns">
+          <button id="gmail-btn">Gmail</button>
+          <button id="image-btn">이미지</button>
+          <button id="menu-btn">메뉴</button>
+          <button id="login-btn">로그인</button>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div id="logo">
+        <a href="#"><img src="../h/img/logo.png" ale="구글 로고 이미지" /></a>
+      </div>
+      <div>
+        <form
+          class="search-box"
+          action="https://google.com/search"
+          method="GET"
+        >
+          <input
+            input
+            class="search-txt"
+            type="text"
+            name="q"
+            placeholder="Google 검색 또는 URL 입력"
+          />
+        </form>
+      </div>
+      <div class="search-btn">
+        <button type="submit" id="search-btn">Google 검색</button>
+        <button>I'm Feeling Lucky</button>
+      </div>
+      <div class="gap"></div>
+    </section>
+    <footer class="footer">
+      <div class="ft-top">
+        <p id="country-name">대한민국</p>
+      </div>
+      <div class="ft-bottom">
+        <div class="ft-left-btn">
+          <button>광고</button>
+          <button>비즈니스</button>
+          <button>검색의 원리</button>
+        </div>
+        <div class="ft-right-btn">
+          <button>개인정보처리방침</button>
+          <button>약관</button>
+          <button>설정</button>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document
+        .getElementById("search-btn")
+        .addEventListener("click", function () {
+          document.querySelector(".search-box").submit();
+        });
+    </script>
+  </body>
 </html>

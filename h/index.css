@@ -1,0 +1,102 @@
+/* --------------- 헤더 --------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 20px;
+}
+
+.header button {
+  /*텍스트 버튼 만들기 */
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 8px 12px;
+}
+.header button:hover {
+  text-decoration: underline;
+}
+/* 로그인 버튼 */
+#login-btn {
+  background-color: #0b57d0;
+  color: #ffff;
+  border-radius: 20px;
+  height: 40px;
+  width: 80px;
+}
+
+/* ------------로고, 검색창------------ */
+#logo img {
+  width: 292px;
+  height: 130px;
+}
+
+section #logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  margin-bottom: 10px;
+}
+section .search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.search-box > input {
+  border: none;
+  border-radius: 20px;
+  width: 600px;
+  height: 40px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.87);
+  padding: 0 15px; /* 내부 여백 추가 */
+}
+.search-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-btn > button {
+  border: none;
+  border-radius: 10%;
+  margin: 0 7px 0 7px;
+  width: 140px;
+  height: 30px;
+  background-color: #f7f8f9;
+  cursor: pointer;
+}
+.gap {
+  height: 300px;
+}
+
+/* ------------ 푸터 ------------- */
+
+.footer button {
+  /*텍스트 버튼 만들기 */
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+.footer button:hover {
+  text-decoration: underline;
+}
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f8f9;
+}
+.ft-top {
+  padding: 15px 15px 15px 15px;
+  border-bottom: 1px solid;
+  border-bottom-color: #d2d2d2;
+}
+.ft-bottom {
+  padding: 15px 15px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,3 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
 body {
-  
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 14px;
+}
+
+/* 헤더 */
+header {
+  height: 60px;
+}
+
+.navbar {
+  height: 100%;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .left-items,
+.navbar .right-items {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.navbar .left-items > * {
+  margin-right: 15px;
+}
+
+.navbar .right-items > * {
+  margin-left: 15px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.lab-icon {
+  width: 50px;
+}
+
+.app-icon {
+  width: 15px;
+}
+
+.login-link {
+  color: white;
+  background-color: #0b57d0;
+  padding: 10px 20px;
+  border-radius: 100px;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+  line-height: 18px;
+}
+
+/* 메인 */
+.content-section {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.logo-img {
+  width: 272px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  border: 1px solid #dfe1e5;
+  box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
+  border-radius: 24px;
+  margin: 20px auto;
+  width: 600px;
+  height: 45px;
+}
+
+.search-bar-icon {
+  width: 25px;
+}
+
+.search-bar form {
+  flex-grow: 1;
+  height: 30px;
+  margin: 0px 20px;
+}
+
+.search-input {
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.search-btns {
+  margin-top: 20px;
+}
+
+.search-btns button {
+  color: #3c4043;
+  background-color: #f8f9fa;
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-btns button:hover {
+  border: 1px solid lightgray;
+}
+
+/* Footer */
+footer {
+  background-color: #f2f2f2;
+  height: 100px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.upper-footer {
+  height: 50%;
+  border-bottom: 1px solid lightgray;
+}
+
+.upper-footer p {
+  color: gray;
+  font-size: 14px;
+}
+
+.lower-footer {
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower-footer .lower-left-footer,
+.lower-footer .lower-right-footer {
+  display: flex;
+}
+
+.lower-footer .lower-left-footer > * {
+  margin-right: 15px;
+}
+
+.lower-footer .lower-right-footer > * {
+  margin-left: 15px;
+}
+
+.lower-footer a,
+p {
+  font-size: 14px;
+  color: grey;
+  font-weight: 400;
+}
+
+.lower-footer a:hover {
+  text-decoration: underline;
 }
