@@ -19,12 +19,18 @@
   </header>
     <div class="container">
       <h1>
-          <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" class="google-logo">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
+            alt="Google Logo" class="google-logo">
       </h1>
-      <div class="search-box">
-          <input type="text" class="search-input" placeholder="Google 검색 또는 URL 입력">
-      </div>
-    </div>
+      <form class="search-box" action="https://www.google.com/search" method="GET">
+        <input 
+          type="text" 
+          class="search-input" 
+          name="q" 
+          placeholder="Google 검색 또는 URL 입력"
+        >
+      </form>
+    </div>  
     <footer class="footer">
       <div class="footer-bar">
           대한민국
